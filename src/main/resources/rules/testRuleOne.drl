@@ -1,0 +1,13 @@
+package rules.test
+
+    rule "hello-world-rule"
+        when
+        then
+            System.out.println("this is test rule!");
+    end
+
+    rule "hello-world-rule2"
+        when
+        then
+            System.out.println("this is test rule2!");
+    end
